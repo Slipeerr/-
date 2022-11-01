@@ -1,0 +1,235 @@
+body{
+background: linear-gradient(90deg, #CCF0F2 0%, #6D98D6 98.44%);
+margin: 0;
+}
+header{
+background-color: #2BB1DB;
+display: flex;
+justify-content: center;
+height: 44px;
+gap: 10px;
+flex-direction: row;
+}
+.monkey{
+display: flex;
+padding: 5px 0px;
+}
+.naz{
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.zag{
+display: flex;
+width: 178px;
+height: 33px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.408px;
+color: #FFFFFF;
+}
+.set{
+display: flex;
+padding: 5px 0px;
+}
+.prof{
+display: flex;
+padding: 5px 0px;
+}
+.glav{
+display: flex;
+justify-content: center;
+padding: 30px 0px;
+}
+.fon{
+width: 324px;
+height: 251px;
+background: linear-gradient(90deg, rgba(31, 162, 255, 0.54) 1.11%, rgba(18, 216, 250, 0.49) 44.34%, rgba(166, 255, 203, 0.53) 101.11%);
+border-radius: 50px;
+justify-content: center;
+}
+.fon h1{
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+letter-spacing: -0.408px;
+color: #FFFFFF;
+}
+.bm{
+display:flex ;
+margin: -100px 180px;
+}
+.log{
+display: flex;
+flex-direction: column;
+justify-content: start;
+gap: 17px;
+padding: 10px 20px;
+}
+.login input{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+width: 155px;
+height: 16px;
+left: calc(50% - 155px/2 - 57.5px);
+top: calc(50% - 16px/2 - 91px);
+background: rgba(250, 250, 250, 0.93);
+border-radius: 10px;
+border: none;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 22px;
+letter-spacing: -0.408px;
+color: rgba(60, 60, 67, 0.6)
+}
+.parol input{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+width: 155px;
+height: 16px;
+left: calc(50% - 155px/2 - 57.5px);
+top: calc(50% - 16px/2 - 91px);
+background: rgba(250, 250, 250, 0.93);
+border-radius: 10px;
+border: none;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 22px;
+letter-spacing: -0.408px;
+color: rgba(60, 60, 67, 0.6)
+}
+.niz{
+display: flex;
+flex-direction: column;
+padding: 68px 70px;
+}
+.zab{
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 7px;
+line-height: 12px;
+letter-spacing: -0.408px;
+color: #041DFD;
+}
+.reg{
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 7px;
+line-height: 12px;
+letter-spacing: -0.408px;
+color: #041DFD;
+}
+.p{
+text-decoration: none;
+color: #041DFD 
+}
+a.prf{
+margin: 6px 0px;
+}
+a.seti{
+margin: 6px 0px;
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1920px){
+
+header{
+height: 70px;
+gap: 40px;
+}
+.monkey{
+padding: 17px 0px;
+}
+.naz{
+font-weight: 400;
+font-size: 47px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.zag{
+width: 455px;
+padding: 20px 0px;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+letter-spacing: -0.408px;
+}
+.set{
+padding: 20px 0px;
+}
+.prof{
+padding: 20px 0px;
+}
+.fon{
+width: 1001px;
+height: 630px;
+justify-content: center;
+}
+.fon h1{
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+}
+.bm{
+width: 253px;
+height: 255px;
+margin: -290px 570px;
+}
+.login input{
+width: 374px;
+height: 26px;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+}
+.parol input{
+width: 374px;
+height: 26px;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;  
+}
+.log{
+display: flex;
+padding: 100px 200px;
+gap: 30px;
+}
+.niz{
+display: flex;
+padding: 240px 370px;
+}
+.zab{
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+}
+.reg{
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+}
+}

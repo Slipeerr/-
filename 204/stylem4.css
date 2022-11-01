@@ -1,0 +1,171 @@
+body{
+background: linear-gradient(90deg, #CCF0F2 0%, #6D98D6 98.44%);
+margin: 0;
+}
+header{
+background-color: #2BB1DB;
+display: flex;
+justify-content: center;
+height: 44px;
+gap: 10px;
+flex-direction: row;
+}
+.monkey{
+display: flex;
+padding: 5px 0px;
+}
+.naz{
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.zag{
+display: flex;
+width: 178px;
+height: 33px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.408px;
+color: #FFFFFF;
+}
+.set{
+display: flex;
+padding: 5px 0px;
+}
+.fon{
+justify-content: center;
+display: flex;
+margin: 90px auto;
+width: 318px;
+height: 428px;
+background: #0011ff2a;
+padding: 25px 0;
+border-radius: 25px;
+}
+.reg{
+display: flex;
+margin: 0px 88px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+letter-spacing: -0.408px;
+color: rgb(255, 255, 255);
+}
+section{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+form.forms {
+display: flex;
+flex-direction: column;
+padding: 16px 32px;
+gap: 10px;
+}
+.forms input {
+padding: 10px 16px 10px 16px;
+border: none;
+border: 1px black solid;
+}
+.forms input::selection {
+border: 1px black solid;
+}
+.got{
+width: 100%;
+padding: 10px 16px 10px 16px;
+margin-top: 16px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: black;
+background: #FFFFFF;
+border: 1px black solid;
+}
+.p{
+text-decoration: none;
+color: black
+}
+a.proft{
+text-decoration: none;
+color: #FFFFFF;
+}
+a.seti{
+margin: 6px 0px;
+}
+@media only screen and (min-width: 680px) and (max-width: 1920px){
+header{
+height: 70px;
+gap: 40px;
+}
+.monkey{
+padding: 17px 0px;
+}
+.naz{
+font-weight: 400;
+font-size: 47px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.zag{
+width: 455px;
+padding: 20px 0px;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+letter-spacing: -0.408px;
+}
+.set{
+padding: 20px 0px;
+}
+.fon{
+padding: 32px;
+width: fit-content;
+height: auto;
+margin: 70px auto;
+}
+.reg{
+width: 261px;
+height: 10px;
+font-weight: 500;
+font-size: 38px;
+line-height: 10px;
+text-align: center;
+margin-bottom: 36px;
+color: #FFFFFF;
+}
+.got{
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #000000;
+}
+.got2{
+margin: 15px 37px;
+width: 77px;
+height: 33px;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+}

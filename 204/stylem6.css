@@ -1,0 +1,192 @@
+body{
+background: linear-gradient(90deg, #CCF0F2 0%, #6D98D6 98.44%), no-repeat;
+margin: 0;
+}
+header{
+background-color: #2BB1DB;
+display: flex;
+justify-content: center;
+height: 54px;
+gap: 15px;
+}
+.monkey{
+display: flex;
+justify-content: center;
+padding: 7px 0px;
+}
+.naz{
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.poisk input{
+left: calc(50% - 93px/2 + 0.5px);
+top: calc(50% - 22px/2 - 301px);
+background: rgba(250, 250, 250, 0.93);
+border-radius: 10px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.408px;
+color: rgba(60, 60, 67, 0.6);
+border: none;
+margin-top: 14px;
+}
+.set{
+display: flex;
+padding: 14px 0px;
+}
+.prof{
+display: flex;
+padding: 12px 0px;
+}
+section.telo{
+display: flex;
+justify-content: center;
+padding: 57px 0px;
+}
+section.telo .fon{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 320px;
+height: 313px;
+background: linear-gradient(90deg, rgba(31, 162, 255, 0.54) 1.11%, rgba(18, 216, 250, 0.49) 44.34%, rgba(166, 255, 203, 0.53) 101.11%);
+border-radius: 50px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+gap: 26px;
+}
+.content{
+display: grid;
+grid-template-columns: repeat(2, 100px);
+height: 120px;
+gap: 15px;
+margin-bottom: 80px;
+}
+.zelen{
+display: flex;
+width: 98.74px;
+height: 27px;
+background: rgba(22, 114, 120, 0.77);
+border-radius: 30px;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 6px;
+line-height: 20px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+justify-content: center;
+}
+button.gotov{
+justify-content: center;
+width: 94px;
+height: 29px;
+background: rgba(11, 74, 197, 0.59);
+border-radius: 90px;
+border: none;
+font-family: 'Acrom';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin-left: 60px;
+}
+.b{
+text-decoration: none;
+color: #FFFFFF;  
+}
+@media only screen and (min-width: 680px) and (max-width: 1920px){
+
+header{
+height: 70px;
+gap: 40px;
+}
+.monkey{
+padding: 17px 0px;
+}
+.naz{
+font-weight: 400;
+font-size: 47px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.poisk input{
+width: 374px;
+height: 36px;
+left: calc(50% - 374px/2 + 12px);
+top: calc(50% - 56px/2 - 566.5px);
+background: rgba(250, 250, 250, 0.93);
+border-radius: 20px;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.408px;
+color: rgba(60, 60, 67, 0.6);
+}   
+.set{
+padding: 20px 0px;
+}    
+.prof{
+padding: 20px 0px;
+}
+.fon{
+width: 997px;
+height: 815px;
+}
+section.telo .fon{
+width: 997px;
+height: 815px;
+font-weight: 500;
+font-size: 48px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+.content{
+display: grid;
+grid-template-columns: repeat(2, 400px);
+height: 120px;
+gap: 15px;
+margin-bottom: 400px;
+}
+.zelen{
+width: 397px;
+height: 83px;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+align-items: center;
+text-align: center;
+}
+button.gotov{
+width: 175px;
+height: 48px;
+margin: 20px 318px;
+}
+}
